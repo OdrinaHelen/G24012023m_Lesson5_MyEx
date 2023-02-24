@@ -1,7 +1,7 @@
-package temp.myTaskLect5_060223;
+package Groupe_24012023_m.lesson5_06_02_2023.myTaskLect5_060223;
 
 public class ProjectUtil {
-    static Project createProject() {
+     static Project createProject() {
         UserInput userInput = new UserInput();
         String nameOfObject = userInput.userInputText("Введите имя объекта: ");
         String designStage = userInput.userInputText("Введите стадию проектирования: ");
@@ -24,7 +24,8 @@ public class ProjectUtil {
 //      System.out.println("Новый проект: " + newProject);
 //////         System.out.println(messageExecutionState);
       return newProject;
-    }}
+    }
+}
 
 
 
