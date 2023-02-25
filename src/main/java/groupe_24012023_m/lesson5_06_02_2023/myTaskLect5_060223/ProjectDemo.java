@@ -1,4 +1,4 @@
-package Groupe_24012023_m.lesson5_06_02_2023.myTaskLect5_060223;
+package groupe_24012023_m.lesson5_06_02_2023.myTaskLect5_060223;
 
 
 
@@ -17,7 +17,7 @@ public class ProjectDemo {
 //        Project secondProject = ProjectUtil.createProject();
 //        Project thirdProject = ProjectUtil.createProject();
 
-        Output.printInformationOfProject(firstProject);
+        output.printInformationOfProject(firstProject);
 //        Output.printInformationOfProject(secondProject);
 //        Output.printInformationOfProject(thirdProject);
 

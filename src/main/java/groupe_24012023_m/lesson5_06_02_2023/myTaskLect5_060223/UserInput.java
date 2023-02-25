@@ -1,4 +1,4 @@
-package Groupe_24012023_m.lesson5_06_02_2023.myTaskLect5_060223;
+package groupe_24012023_m.lesson5_06_02_2023.myTaskLect5_060223;
 
 import java.util.Scanner;
 
