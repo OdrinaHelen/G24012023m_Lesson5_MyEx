@@ -1,7 +1,8 @@
 package Groupe_24012023_m.lesson5_06_02_2023.myTaskLect5_060223;
 
 public class ProjectUtil {
-     static Project createProject() {
+
+    Project createProject() {
         UserInput userInput = new UserInput();
         String nameOfObject = userInput.userInputText("Введите имя объекта: ");
         String designStage = userInput.userInputText("Введите стадию проектирования: ");
@@ -12,8 +13,8 @@ public class ProjectUtil {
 //        if (executionState = true) messageExecutionState = "Проект выполнено";
 //        else messageExecutionState = "Проект не выполнено";
 
-
-
+        if (Project.executionState = true) {messageExecutionState = "Проект выполнено";}
+        else {messageExecutionState = "Проект НЕ выполнено";}
 
 
 //        String messageExecutionState;
@@ -23,9 +24,12 @@ public class ProjectUtil {
         Project newProject = new Project(nameOfObject, designStage, designedSystem, numberOfWeeksToComplete, executionState);
 //      System.out.println("Новый проект: " + newProject);
 //////         System.out.println(messageExecutionState);
-      return newProject;
+
+
+        return newProject;
     }
-}
+    }
+
 
 
 

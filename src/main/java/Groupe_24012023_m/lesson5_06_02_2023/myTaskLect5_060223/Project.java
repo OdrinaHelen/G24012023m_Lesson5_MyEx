@@ -7,7 +7,7 @@ String designedSystem;
 int numberOfWeeksToComplete;
 boolean executionState;
 
-//String messageExecutionState;
+String messageExecutionState;
 
     public Project(String nameOfObject, String designStage, String designedSystem, int numberOfWeeksToComplete, boolean executionState) {
         this.nameOfObject = nameOfObject;
